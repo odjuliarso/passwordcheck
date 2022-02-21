@@ -9,7 +9,7 @@
             type="edu.cascadia.mobile.apps.passwordcheck.PasswordViewModel" />
     </data>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
@@ -61,7 +61,7 @@
             android:text=""/>
         <!-- TODO: create a ONE-way reference to the passwordQuality property using @{viewModel.passwordQuality}-->
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
 
 
